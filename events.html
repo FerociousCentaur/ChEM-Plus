@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Events | Chemplus</title>
+    <link rel="stylesheet" href="bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="about_us.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="social.css">
+    <link rel="stylesheet" href="chesanimation.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Bilbo Swash Caps' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Della Respira' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Gotu' rel='stylesheet'>
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="events.css">
+  
+    <style>
+        #main {
+  padding: 16px;
+  margin-left: 0px;
+  transition: all 0.5s;
+}
+.social{
+    z-index: 1;
+}
+
+.sidebar{
+    z-index: 2;
+}
+.centred{
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Gotu';
+}
+    </style>
+</head>
+<body>
+<!-- =========  NAVBAR (MOBILE)======================= -->
+    <div style="z-index:5;">
+        <div id="circularMenu1" class="circular-menu circular-menu-left">
+            <a class="floating-btn" onclick="myFunction();">
+            <i id="yup" class="fa fa-bars"></i>
+            </a>
+            <menu class="items-wrapper">
+            <a href="about.html" class="menu-item "><i class="material-icons rotate-0">info</i></a>
+            <a href="events.html" class="menu-item active"><i class="material-icons  rotate-22">event</i></a>
+            <a href="workshops.html" class="menu-item "><i  class="material-icons  rotate-45">engineering</i></a>
+            <a href="spons.html" class="menu-item "><i  class="material-icons  rotate-67">monetization_on</i></a>
+            <a href="teams.html" class="menu-item "><i  class="material-icons  rotate-90">email</i></a>
+            </menu> 
+        </div>
+    </div>
+
+<!--- ================ CHES| IITM  ANIMATION ==================== -->
+<div style="white-space:nowrap;">
+    <a id="inmain" style="padding-left:20px;" class="navbar-brand" href="index.html">
+        <h5 class="ml5" style="font-size:25px;">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span style="font-weight: lighter;" class="letters letters-left">ChES</span>
+          <span class="letters ampersand">&nbsp;|</span>
+          <span style="font-weight: lighter;" class="letters letters-right">IITM</span>
+          <span class="line line2"></span>
+        </span>
+      </h5>
+    </a>
+  </div>
+
+<!-- ======================NAVBAR(DESKTOP)============================ -->
+        <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+            <a href="index.html"><img class="logo-img" style="margin: 10px 20px 20px 7px;"
+                src="images/logo.png" width="45" height="50" ALT="logo" ALIGN=CENTER>
+                <span class="icon-text sli1 left2r">CHEMPLUS 21'</span>
+            
+                <a class="left2r" style="padding: 8px 8px 8px 19px;" href="about.html">
+                <i class="material-icons">info</i>
+                <span class="icon-text sli2 left2r">ABOUT</span>
+                </a>
+                <br>
+                <a  class="active" style="padding: 8px 8px 8px 19px;" href="events.html">
+                <i class="material-icons">event</i>
+                <span class="icon-text sli3 left2r">EVENTS</span>
+                </a>
+                <br>
+                <a   style="padding: 8px 8px 8px 19px;" href="workshops.html">
+                <i class="material-icons">engineering</i>
+                <span class="icon-text sli3 left2r">WORKSHOPS</span>
+                </a>
+                <br>
+                <a style="padding: 8px 8px 8px 19px;" href="spons.html">
+                <i class="material-icons">monetization_on</i>
+                <span class="icon-text sli4 left2r">SPONSORS</span>
+                </a>
+                <br>
+                <a style="padding: 8px 8px 8px 19px;" href="teams.html">
+                <i class="material-icons">email</i>
+                <span class="icon-text sli5 left2r">CONTACT</span>
+                </a>
+        </div>
+
+
+<!--=========== SOCIAL ICONS: (insert content in #main) =====================-->
+    <div id="main">
+        <nav class="social">
+            <ul >
+                <li><a href="https://www.youtube.com/channel/UCvzZnpqw6URbYoeqaGIcNIw" style="font-size: 18px;">Youtube <i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://www.facebook.com/ChemicalEngineeringIITMadras/" style="font-size: 18px;">Facebook <i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/ches_iitm/?hl=af" style="font-size: 18px;">Instagram <i class="fa fa-instagram"></i></a></li>          </ul>
+        </nav>
+        <div class="positioning">
+            <p class="centred">
+              Events
+            </p>
+            <hr class="small">
+        </div>
+        <div class="container">
+        
+            <div class="">
+            <div style="margin-top: 70px;"  class="row d-flex justify-content-center">
+            <!-- Normal Demo-->
+            <div style="margin: 0 auto;" class="col-lg-3 col-md-5 col-sm-6">
+              
+              <!-- Post-->
+              <div class="post-module">
+                <!-- Thumbnail-->
+                <div class="thumbnail">
+                  <div class="date">
+                    <div class="day">00</div>
+                    <div  class="month"> soon</div>
+                  </div><img src="images/soon.jpg"/>
+                </div>
+                <!-- Post Content-->
+                <div class="post-content">
+                  <div class="category" >00:00</div>
+                  <h1 class="title">Lecture Series</h1>
+                  <h2 class="sub_title"></h2>
+                  <p class="description">coming soon..<br><a href="#" class="btn btn-primary">Explore</a></p>
+                  <div class="post-meta"><span class="timestamp"></span><span class="comments">To Go</span></div>
+                </div>
+              </div>
+            </div>
+            
+           
+            
+            
+            
+            </div>
+        </div>
+        </div>
+        
+      <div class="container">
+      
+          <div class="">
+          <div style="margin-top: 100px;"  class="row d-flex justify-content-center">
+          <!-- Normal Demo-->
+          <div style="margin: 0 auto;" class="col-lg-3 col-md-5 col-sm-6">
+            
+            <!-- Post-->
+            <div class="post-module">
+              <!-- Thumbnail-->
+              <div class="thumbnail">
+                <div class="date">
+                  <div class="day">00</div>
+                  <div  class="month"> soon</div>
+                </div><img src="images/soon.jpg"/>
+              </div>
+              <!-- Post Content-->
+              <div class="post-content">
+                <div class="category" >00:00</div>
+                <h1 class="title">Paper Presentation</h1>
+                <h2 class="sub_title"></h2>
+                <p class="description">coming soon..<br><a href="#" class="btn btn-primary">Explore</a></p>
+                <div class="post-meta"><span class="timestamp"></span><span class="comments">To Go</span></div>
+              </div>
+            </div>
+          </div>
+          
+          <div style="margin: 0 auto;" class="col-lg-3  col-md-5 col-sm-6">
+            
+            <!-- Post-->
+            <div class="post-module">
+              <!-- Thumbnail-->
+              <div class="thumbnail">
+                <div class="date">
+                  <div class="day">00</div>
+                  <div  class="month"> soon</div>
+                </div><img src="images/soon.jpg"/>
+              </div>
+              <!-- Post Content-->
+              <div class="post-content">
+                <div class="category" >00:00</div>
+                <h1 class="title">IDP</h1>
+                <h2 class="sub_title"></h2>
+                <p class="description">coming soon..<br><a href="#" class="btn btn-primary">Explore</a></p>
+                <div class="post-meta"><span class="timestamp"></span><span class="comments">To Go</span></div>
+              </div>
+            </div>
+          </div>
+          
+          <div style="margin: 0 auto;" class="col-lg-3  col-md-5 col-sm-6  ">
+             
+            <!-- Post-->
+            <div class="post-module">
+              <!-- Thumbnail-->
+              <div class="thumbnail">
+                <div class="date">
+                  <div class="day">00</div>
+                  <div  class="month"> soon</div>
+                </div><img src="images/soon.jpg"/>
+              </div>
+              <!-- Post Content-->
+              <div class="post-content">
+                <div class="category" >00:00</div>
+                <h1 class="title">3 min Talk</h1>
+                <h2 class="sub_title"></h2>
+                <p class="description">coming soon..<br><a href="#" class="btn btn-primary">Explore</a></p>
+                <div class="post-meta"><span class="timestamp"></span><span class="comments">To Go</span></div>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+      </div>
+      </div>
+      <div class="container">
+        
+        <div class="">
+        <div style="margin-top: 100px;"  class="row d-flex justify-content-center">
+        <!-- Normal Demo-->
+        <div style="margin: 0 auto;" class="col-lg-3 col-md-5 col-sm-6">
+          
+          <!-- Post-->
+          <div class="post-module">
+            <!-- Thumbnail-->
+            <div class="thumbnail">
+              <div class="date">
+                <div class="day">00</div>
+                <div  class="month"> soon</div>
+              </div><img src="images/soon.jpg"/>
+            </div>
+            <!-- Post Content-->
+            <div class="post-content">
+              <div class="category" >00:00</div>
+              <h1 class="title">Treasure Hunt</h1>
+              <h2 class="sub_title"></h2>
+              <p class="description">coming soon..<br><a href="#" class="btn btn-primary">Explore</a></p>
+              <div class="post-meta"><span class="timestamp"></span><span class="comments">To Go</span></div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        <div style="margin: 0 auto;" class="col-lg-3  col-md-5 col-sm-6  ">
+           
+          <!-- Post-->
+          <div class="post-module">
+            <!-- Thumbnail-->
+            <div class="thumbnail">
+              <div class="date">
+                <div class="day">00</div>
+                <div  class="month"> soon</div>
+              </div><img src="images/soon.jpg"/>
+            </div>
+            <!-- Post Content-->
+            <div class="post-content">
+              <div class="category" >00:00</div>
+              <h1 class="title">Games</h1>
+              <h2 class="sub_title"></h2>
+              <p class="description">coming soon..<br><a href="#" class="btn btn-primary">Explore</a></p>
+              <div class="post-meta"><span class="timestamp"></span><span class="comments">To Go</span></div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+<!---=================== SCRIPTS ================-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!--=========SCRIPT FOR NAVBAR(MOBILE)===================-->
+    <script>
+        function myFunction() {
+        document.getElementById('circularMenu1').classList.toggle('active');
+        document.getElementById('yup').classList.toggle("fa-times");
+        }
+        function myfun(x){
+        x.classList.add('active');
+        }
+        function myfun2(x){
+        x.classList.remove('active');
+        }  
+    </script>
+
+ <!--===========SCRIPT FOR NAVBAR(DESKTOP)-->   
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    var mini = true;
+    if ($(window).width() < 600) {
+   document.getElementById("main").style.marginLeft = "0px";
+}
+else {
+    document.getElementById("main").style.marginLeft = "60px";
+}
+    function toggleSidebar() {
+      if (mini) {
+        $(".icon-text").css("margin-left", "10px");
+        /*document.getElementById("inmain").style.visibility = "hidden"; */
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginRight = "0px";
+        document.getElementById("main").style.marginLeft = "250px";
+        this.mini = false;
+      } 
+      else {
+        $(".icon-text").css("margin-left", "-4000px");
+        $(".uio").css("margin-left", "10px");
+        /*document.getElementById("inmain").style.visibility = "visible";*/
+        document.getElementById("mySidebar").style.width = "60px";
+        document.getElementById("main").style.marginLeft = "60px";
+        this.mini = true;
+      }
+    }
+    </script> 
+
+<!--========== FOR CHES|IITM ANIMATION=================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+        anime.timeline({loop: true})
+    .add({
+    targets: '.ml5 .line',
+    opacity: [0.5,1],
+    scaleX: [0, 1],
+    easing: "easeInOutExpo",
+    duration: 700
+    }).add({
+    targets: '.ml5 .line',
+    duration: 600,
+    easing: "easeOutExpo",
+    translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
+    }).add({
+    targets: '.ml5 .ampersand',
+    opacity: [0,1],
+    scaleY: [0.5, 1],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=600'
+    }).add({
+    targets: '.ml5 .letters-left',
+    opacity: [0,1],
+    translateX: ["0.2em", 0],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=300'
+    }).add({
+    targets: '.ml5 .letters-right',
+    opacity: [0,1],
+    translateX: ["-0.2em", 0],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=600'
+    }).add({
+    targets: '.ml5',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+    });
+    </script>
+
+<!--==========END================-->  
+<script src="//use.typekit.net/xyl8bgh.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+</script>
+<script src="https://codepen.io/andytran/pen/vLmRVp.js"></script>
+
+<script>
+$(window).load(function() {
+$('.post-module').hover(function() {
+$(this).find('.description').stop().animate({
+  height: "toggle",
+  opacity: "toggle"
+}, 300);
+});
+});
+</script>
+
+
+
+
+<script>
+
+setInterval(getTimeRemaining,1000); 
+function getTimeRemaining(){
+mnm = ['JAN', 'FE', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+var day = document.getElementsByClassName("day");
+var month = document.getElementsByClassName("month");
+var ti = document.getElementsByClassName("timestamp");
+var tim = document.getElementsByClassName("category");
+for(var i = 0; i < day.length; i++){
+  var mn = mnm.indexOf(month[i].innerText)+1;
+  //console.log(mn);
+  //console.log(month[i].innerText);
+  //console.log(day[i].innerText);
+  var endtime = month[i].innerText + " "+day[i].innerText+", 2021 "+ tim[i].innerText; //"2021-"+mn.toString()+"-"+day[i].innerText ;
+  console.log(endtime);
+  const total = Date.parse(endtime) - Date.parse(new Date());
+  const seconds = Math.floor( (total/1000) % 60 );
+  const minutes = Math.floor( (total/1000/60) % 60 );
+  const hours = Math.floor( (total/(1000*60*60)) % 24 );
+  const days = Math.floor( total/(1000*60*60*24) );
+  var dame = days<=1?" day ":" days ";
+  ti[i].innerHTML ="00 day 00:00:00"; //pad2(days) +dame+ pad2(hours) +":" + pad2(minutes) +":"+ pad2(seconds);
+
+}
+
+}
+</script>
+<script>
+    function pad2(number) {
+   
+   return (number < 10 ? '0' : '') + number
+ 
+}
+</script>
+</body>
+</html>

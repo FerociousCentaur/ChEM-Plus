@@ -1,0 +1,115 @@
+.gottu{
+  font-family: 'Gotu' !important;
+  font-size: 7px !important;
+}
+
+.centred{
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: 'Gotu';
+}
+
+.centreg{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Gotu';
+}
+
+.positioning{
+  position: relative;
+  top:30px;
+  left: 45%;
+  transform: translate(-45%, 0);
+  color: #d3e0ea;
+}
+
+.small{max-width:100px;margin:15px auto;border-width:4px;border-color:#d3e0ea;position:relative;bottom:15px;}
+
+.bordered{
+  z-index:-1;
+  border-radius: 10px;
+  margin-top: 5em;
+  background-color: white;
+}
+
+.positioner{
+  position: fixed;
+}
+
+.spanner{
+  color: white;
+}
+
+.normaling{
+  white-space: normal;
+  padding: 30px 40px 0 40px;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Della Respira';
+}
+
+.normaler{
+  white-space: normal;
+  padding: 50px 40px 15px 40px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Della Respira';
+}
+
+.normalint{
+  white-space: normal;
+  padding: 0 40px 5px 40px;
+  text-align: left;
+  font-size: 1.4em;
+  font-family: 'Della Respira';
+}
+
+.charming{
+  font-family: 'Charm';
+  font-weight: bold;
+}
+
+.spaceup{
+  padding-top: 5px;
+}
+
+body{
+  position: relative;
+  background-image: url("images/bg4.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: 1500px 800px;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color:white;
+  transform-origin: 0.5 0;
+}
+
+.whiter{
+  color: white;
+}
+
+@media(max-width:600px){
+  body{
+    font-size:0.8em;
+  }
+  .normaling{
+    padding: 30px 20px 0 20px;
+  }
+  .needsmall{
+    font-size: 30px
+  }
+  .needmedium{
+    font-size: 45px;
+  }
+}

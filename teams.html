@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title></title>
+
+    <link rel="stylesheet" href="https://e6t7a8v2.stackpathcdn.com/tutorial/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="bootstrap-grid.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet' type='text/css'>
+
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="cards.css">
+  <link rel="stylesheet" href="animHead.css">
+  <link rel="stylesheet" href="yaku.css">
+  <script src="animHead.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="news.css">``
+  <link rel="stylesheet" href="social.css">
+  <link rel="stylesheet" href="chesanimation.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Gotu' rel='stylesheet'>
+  <link rel="stylesheet" href="teams.css">
+    <style>
+      body {
+    background-image: url("images/bg6.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  /*body{
+      background: linear-gradient(60deg, red,white);
+  }*/
+  </style>
+  </head>
+  <body>
+
+    <!-- =========  NAVBAR (MOBILE)======================= -->
+  <div style="z-index:5;">
+    <div id="circularMenu1" class="circular-menu circular-menu-left">
+        <a class="floating-btn" onclick="myFunction();">
+        <i id="yup" class="fa fa-bars"></i>
+        </a>
+        <menu class="items-wrapper">
+        <a href="about.html" class="menu-item active"><i class="material-icons rotate-0">info</i></a>
+        <a href="events.html" class="menu-item "><i class="material-icons  rotate-22">event</i></a>
+        <a href="workshops.html" class="menu-item "><i  class="material-icons  rotate-45">engineering</i></a>
+        <a href="spons.html" class="menu-item "><i  class="material-icons  rotate-67">monetization_on</i></a>
+        <a href="teams.html" class="menu-item "><i  class="material-icons  rotate-90">email</i></a>
+        </menu>
+    </div>
+</div>
+
+<!--- ================ CHES| IITM  ANIMATION ==================== -->
+<div style="white-space:nowrap;">
+<a id="inmain" style="padding-left:20px;" class="navbar-brand" href="index.html">
+    <h5 class="ml5">
+    <span class="text-wrapper">
+      <span class="line line1"></span>
+      <span class="letters letters-left">ChES</span>
+      <span class="letters ampersand">&nbsp;|</span>
+      <span class="letters letters-right">IITM</span>
+      <span class="line line2"></span>
+    </span>
+  </h5>
+</a>
+</div>
+
+<!-- ======================NAVBAR(DESKTOP)============================ -->
+    <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+        <a href="index.html"><img class="logo-img" style="margin: 10px 20px 20px 7px;"
+            src="images/logo.png" width="45" height="50" ALT="logo" ALIGN=CENTER>
+            <span class="icon-text sli1 left2r">CHEMPLUS 21'</span>
+
+            <a class="left2r active" style="padding: 8px 8px 8px 19px;" href="about.html">
+            <i class="material-icons">info</i>
+            <span class="icon-text sli2 left2r">ABOUT</span>
+            </a>
+            <br>
+            <a  style="padding: 8px 8px 8px 19px;" href="events.html">
+            <i class="material-icons">event</i>
+            <span class="icon-text sli3 left2r">EVENTS</span>
+            </a>
+            <br>
+            <a  style="padding: 8px 8px 8px 19px;" href="workshops.html">
+            <i class="material-icons">engineering</i>
+            <span class="icon-text sli3 left2r">WORKSHOPS</span>
+            </a>
+            <br>
+            <a style="padding: 8px 8px 8px 19px;" href="spons.html">
+            <i class="material-icons">monetization_on</i>
+            <span class="icon-text sli4 left2r">SPONSORS</span>
+            </a>
+            <br>
+            <a style="padding: 8px 8px 8px 19px;" href="teams.html">
+            <i class="material-icons">email</i>
+            <span class="icon-text sli5 left2r">CONTACT</span>
+            </a>
+    </div>
+
+
+<!--=========== SOCIAL ICONS: (insert content in #main) =====================-->
+<div id="main">
+    <nav class="social">
+        <ul>
+            <li><a href="https://www.youtube.com/channel/UCvzZnpqw6URbYoeqaGIcNIw">Youtube <i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.facebook.com/ChemicalEngineeringIITMadras/">Facebook <i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/ches_iitm/?hl=af">Instagram <i class="fa fa-instagram"></i></a></li>          </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <h1 class="heading">ChemPlus Team 2021</h1>
+        </div>
+    </div>
+
+    <br />
+
+     <div class="container">
+         <div class="row d-flex justify-content-center grid__item">
+            <a class="link link--yaku" href="#">
+                <span>S</span><span>e</span><span>c</span><span>r</span><span>e</span><span>t</span><span>a</span><span>r</span><span>i</span><span>e</span><span>s</span>
+            </a>
+
+         </div>
+         <hr>
+         <div class="row d-flex justify-content-around">
+             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                 <div class="box">
+                     <img  src="images/team/Priyansh_Secretary.jpg">
+                     <div class="box-content">
+                         <div class="inner-content">
+                             <h3 class="title">Priyansh Kalawat</h3>
+                             <span class="post">Secretary</span>
+                             <ul class="icon">
+                                 <li><a href="https://www.linkedin.com/in/priyansh-kalawat"><i class="fab fa-linkedin-in"></i></a></li>
+                                 <li><a href="tel:8074258222"><i class="fa fa-phone"></i></a></li>
+                                 <li><a href="mailto:sec_ches@smail.iitm.ac.in"><i class="fas fa-envelope"></i></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                 <div class="box">
+                     <img  src="images/team/Meghana_Secretary.jpg">
+                     <div class="box-content">
+                         <div class="inner-content">
+                             <h3 class="title">Meghana</h3>
+                             <span class="post">Secretary</span>
+                             <ul class="icon">
+                                 <li><a href="https://www.linkedin.com/in/pmeghana96"><i class="fab fa-linkedin-in"></i></a></li>
+                                 <li><a href="tel:7736883670"><i class="fa fa-phone"></i></a></li>
+                                 <li><a href="mailto:sec_ches@smail.iitm.ac.in"><i class="fa fa-envelope"></i></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+         <div class="col-lg-12">
+           <br />
+         </div>
+         <div class="row d-flex justify-content-center grid__item">
+            <a class="link link--yaku" href="#">
+                <span>A</span><span>I</span><span>C</span><span>h</span><span>E</span><span>&nbsp;</span><span>P</span><span>r</span><span>e</span><span>s</span><span>i</span><span>d</span><span>e</span><span>n</span><span>t</span><span>&nbsp;</span><span>&</span><span> &nbsp;</span><span>V</span><span>i</span><span>c</span><span>e</span><span>-</span><span>P</span><span>r</span><span>e</span><span>s</span><span>i</span><span>d</span><span>e</span><span>n</span><span>t</span>            </a>
+
+         </div>
+            <hr>
+         <div class="row d-flex justify-content-around">
+             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                 <div class="box">
+                     <img  src="images/team/Shashwat_AIChE_President.JPG">
+                     <div class="box-content">
+                         <div class="inner-content">
+                             <h3 class="title">Shashwat</h3>
+                             <span class="post">AIChE President</span>
+                             <ul class="icon">
+                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                 <div class="box">
+                     <img  src="images/team/Vedasri Sai _AIChE Chapter Vice President.JPG">
+                     <div class="box-content">
+                         <div class="inner-content">
+                             <h3 class="title">Vedasri Sai</h3>
+                             <span class="post">AIChE Vice President</span>
+                             <ul class="icon">
+                                 <li><a href="https://www.linkedin.com/in/vedasri-sai-b83364196/"><i class="fab fa-linkedin-in"></i></a></li>
+                                 <li><a href="tel:6303519102"><i class="fa fa-phone"></i></a></li>
+                                 <li><a href="mailto:ch18b012@smail.iitm.ac.in"><i class="fa fa-envelope"></i></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+
+         <div class="col-lg-12">
+           <br />
+         </div>
+
+         <div class="row d-flex justify-content-center grid__item">
+             <a class="link link--yaku" href="#">
+                 <span>w</span><span>e</span><span>b</span><span>&nbsp;</span><span>d</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>m</span><span>e</span><span>n</span><span>t</span>
+                 </a>
+             </div>
+             <hr>
+         <div class="row d-flex justify-content-around">
+             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                 <div class="box">
+                     <img  src="images/team/Gunavardhan_webops.jpg">
+                     <div class="box-content">
+                         <div class="inner-content">
+                             <h3 class="title">Gunavardhan</h3>
+                             <span class="post">Webops</span>
+                             <ul class="icon">
+                                 <li><a href="https://www.linkedin.com/in/gunavardhan-akiti-6abb1a190/"><i class="fab fa-linkedin-in"></i></a></li>
+                                 <li><a href="tel:7416173741"><i class="fa fa-phone"></i></a></li>
+                                 <li><a href="mailto:webops_ches@smail.iitm.ac.in"><i class="fa fa-envelope"></i></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+
+             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                 <div class="box">
+                     <img  src="images/team/Vivek.jpg">
+                     <div class="box-content">
+                         <div class="inner-content">
+                             <h3 class="title">Vivek Anand</h3>
+                             <span class="post">Webops</span>
+                             <ul class="icon">
+                                 <li><a href="https://www.linkedin.com/in/vivek-anand-68415a1b2"><i class="fab fa-linkedin-in"></i></a></li>
+                                 <li><a href="tel:8340447063"><i class="fa fa-phone"></i></a></li>
+                                 <li><a href="mailto:ch19b096@smail.iitm.ac.in"><i class="fa fa-envelope"></i></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+
+             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                 <div class="box">
+                     <img  src="images/team/Nohan.jpg">
+                     <div class="box-content">
+                         <div class="inner-content">
+                             <h3 class="title">Nohan Joemon</h3>
+                             <span class="post">Webops</span>
+                             <ul class="icon">
+                                 <li><a href="https://www.linkedin.com/in/nohan-joemon-01a0701a9/"><i class="fab fa-linkedin-in"></i></a></li>
+                                 <li><a href="tel:8330039077"><i class="fa fa-phone"></i></a></li>
+                                 <li><a href="mailto:ch19b072@smail.iitm.ac.in"><i class="fa fa-envelope"></i></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="col-lg-12">
+                <br />
+                <br />
+              </div>
+             
+
+             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                 <div class="box">
+                     <img  src="images/team/Rajdeep.jpg">
+                     <div class="box-content">
+                         <div class="inner-content">
+                             <h3 class="title">Rajdeep Thakur</h3>
+                             <span class="post">Webops</span>
+                             <ul class="icon">
+                                 <li><a href="https://in.linkedin.com/in/rajdeep-thakur-5586391b1"><i class="fab fa-linkedin-in"></i></a></li>
+                                 <li><a href="tel:7984385852"><i class="fa fa-phone"></i></a></li>
+                                 <li><a href="mailto:ch19b082@smail.iitm.ac.in"><i class="fa fa-envelope"></i></a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+
+         <div class="col-lg-12">
+           <br />
+         </div>
+
+         <div class="row d-flex justify-content-center grid__item">
+            <a class="link link--yaku" href="#">
+              <span>U</span><span>G</span><span>&nbsp;</span><span>&</span><span>&nbsp;</span><span>P</span><span>G</span><span>&nbsp;</span><span>J</span><span>o</span><span>i</span><span>n</span><span>t</span><span>&nbsp;</span><span>S</span><span>e</span><span>c</span><span>r</span><span>e</span><span>t</span><span>a</span><span>r</span><span>i</span><span>e</span><span>s</span>
+                </a>
+            </div>
+        <hr>
+        <div class="row d-flex justify-content-around">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                <div class="box">
+                    <img  src="images/team/Rahul_UG_Joint_Secretary.jpg">
+                    <div class="box-content">
+                        <div class="inner-content">
+                            <h3 class="title">Rahul</h3>
+                            <span class="post">UG Joint Secretary</span>
+                            <ul class="icon">
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                <div class="box">
+                    <img  src="images/team/Arindam_PG_Joint_Secretary.jpg">
+                    <div class="box-content">
+                        <div class="inner-content">
+                            <h3 class="title">Arindam Das</h3>
+                            <span class="post">PG Joint Secretary</span>
+                            <ul class="icon">
+                                <li><a href="https://www.linkedin.com/in/arindam-das-49a6b5118"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="tel:6372093655"><i class="fa fa-phone"></i></a></li>
+                                <li><a href="mailto:ch19d400@smail.iitm.ac.in"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-12">
+          <br />
+        </div>
+
+        <div class="row d-flex justify-content-center grid__item">
+            <a class="link link--yaku" href="#">
+                <span>S</span><span>p</span><span>o</span><span>n</span><span>s</span><span>o</span><span>r</span><span>s</span><span>h</span><span>i</span><span>p</span><span>&nbsp;</span><span>A</span><span>n</span><span>d</span><span>&nbsp;</span><span>P</span><span>u</span><span>b</span><span>l</span><span>i</span><span>c</span><span>&nbsp;</span><span>R</span><span>e</span><span>l</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span>                </a>
+            </div>
+        <hr>
+        <div class="row d-flex justify-content-around">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                <div class="box">
+                    <img  src="images/team/Saujanya_SponsandFincore.jpg">
+                    <div class="box-content">
+                        <div class="inner-content">
+                            <h3 class="title">Saujanya</h3>
+                            <span class="post">Spons and Fin core</span>
+                            <ul class="icon">
+                                <li><a href="http://linkedin.com/in/saujanya-sabarinath"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="tel:9952852033"><i class="fa fa-phone"></i></a></li>
+                                <li><a href="mailto:spr_ches@smail.iitm.ac.in "><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+          <br />
+        </div>
+        <div class="row d-flex justify-content-center grid__item">
+            <a class="link link--yaku" href="#">
+                <span>E</span><span>v</span><span>e</span><span>n</span><span>t</span><span>s</span>                </a>
+            </div>
+        <hr>
+        <div class="row d-flex justify-content-around">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                <div class="box">
+                    <img  src="images/team/Abhilash_Events_Core.jpg">
+                    <div class="box-content">
+                        <div class="inner-content">
+                            <h3 class="title">Abhilash</h3>
+                            <span class="post">Events Core (UG)</span>
+                            <ul class="icon">
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                <div class="box">
+                    <img  src="images/team/Sagnik_Events_Core( PG).jpg">
+                    <div class="box-content">
+                        <div class="inner-content">
+                            <h3 class="title">Sagnik Kar</h3>
+                            <span class="post">Events Core (PG)</span>
+                            <ul class="icon">
+                                <li><a href="tel:8240347264"><i class="fa fa-phone"></i></a></li>
+                                <li><a href="mailto:ch20m034@smail.iitm.ac.in"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-12">
+          <br />
+        </div>
+        <div class="row d-flex justify-content-center grid__item">
+            <a class="link link--yaku" href="#">
+                <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span>                </a>
+            </div>
+        <hr>
+        <div class="row d-flex justify-content-around">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                <div class="box">
+                    <img  src="images/team/Sesh Tej_Design_Core.jpg">
+                    <div class="box-content">
+                        <div class="inner-content">
+                            <h3 class="title">M V Sesh Tej</h3>
+                            <span class="post">Design</span>
+                            <ul class="icon">
+                                <li><a href="https://www.linkedin.com/in/venkata-sesh-tej-matta-b151b3206/"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="tel:9182715191"><i class="fa fa-phone"></i></a></li>
+                                <li><a href="mailto:ch18b054@smail.iitm.ac.in"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+          <br />
+        </div>
+
+        <div class="row d-flex justify-content-center grid__item">
+            <a class="link link--yaku" href="#">
+                <span>P</span><span>u</span><span>b</span><span>l</span><span>i</span><span>c</span><span>i</span><span>t</span><span>y</span><span>&nbsp;</span><span>a</span><span>n</span><span>d</span><span>&nbsp;</span><span>H</span><span>o</span><span>s</span><span>p</span><span>i</span><span>t</span><span>a</span><span>l</span><span>i</span><span>t</span><span>y</span>                </a>
+            </div>
+        <hr>
+        <div class="row d-flex justify-content-around">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                <div class="box">
+                    <img  src="images/team/Sravani_HospiPubli Core.jpg">
+                    <div class="box-content">
+                        <div class="inner-content">
+                            <h3 class="title">Pitta Sravani</h3>
+                            <span class="post">HospiPubli</span>
+                            <ul class="icon">
+                                <li><a href="https://www.linkedin.com/in/sravani-pitta-46905b185"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="tel:9490151066"><i class="fa fa-phone"></i></a></li>
+                                <li><a href="mailto:ch18b018@smail.iitm.ac.in"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+                <div class="box">
+                    <img  src="images/team/Subhash Sharma_PG Core HospiPubli.jpg">
+                    <div class="box-content">
+                        <div class="inner-content">
+                            <h3 class="title">Subhash</h3>
+                            <span class="post">PG Core HospiPubli</span>
+                            <ul class="icon">
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-12">
+          <br />
+        </div>
+        <hr>
+          <p class="normaling whiter" style="text-align:centre;">
+            Copyright © ChES 2021
+            </p>
+
+     </div>
+   </div>
+   <br />
+   <br />
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script>
+
+var dance = {
+
+  init: function() {
+    this.dance();
+  },
+
+  config: {
+    newSize: 40,
+  },
+
+  dance: function(config) {
+    var newText = '',
+        h1 = $('.heading'),
+        text = $('.heading').text(),
+        oldSize = h1.css('font-size'),
+        length = text.length,
+        i;
+
+    for( i = 0; i < length; i++ ) {
+
+      newText += '<span>' + text.charAt(i) + '</span>';
+    }
+
+    h1.html(newText);
+
+    h1.on('mouseenter mouseleave', 'span', function(e) {
+      var span = $(this);
+
+      if( e.type == 'mouseenter') {
+
+        span.stop(true,false).animate({fontSize: dance.config.newSize + 'px'});
+
+      } else if( e.type == "mouseleave" ) {
+
+        span.animate({fontSize: oldSize});
+      }
+    });
+  }
+};
+
+$(function() {
+  dance.init();
+});
+</script>
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+      $("#mycarousel").carousel( { interval: 2000 } );
+      $("#reservebutton").click(function(){
+          $('#reserveModal').modal('toggle');
+      })
+      $("#loginbutton").click(function(){
+          $('#loginModal').modal('toggle');
+      })
+      $("#carouselButton").click(function(){
+              if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+                  $("#mycarousel").carousel('pause');
+                  $("#carouselButton").children("span").removeClass('fa-pause');
+                  $("#carouselButton").children("span").addClass('fa-play');
+              }
+              else if ($("#carouselButton").children("span").hasClass('fa-play')){
+                  $("#mycarousel").carousel('cycle');
+                  $("#carouselButton").children("span").removeClass('fa-play');
+                  $("#carouselButton").children("span").addClass('fa-pause');
+              }
+          });
+  });
+</script>
+
+<script>
+function myFunction() {
+  document.getElementById('circularMenu1').classList.toggle('active');
+  document.getElementById('yup').classList.toggle("fa-times");
+/*if(document.getElementById('circularMenu1').classList.contains('active')){
+  $(".card").css("z-index", "-5");
+}
+else{
+  $(".card").css("z-index", "0");
+}*/
+
+}
+function myfun(x){
+  x.classList.add('active');
+}
+function myfun2(x){
+  x.classList.remove('active');
+}
+
+
+</script>
+<!---=================== SCRIPTS ================-->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!--=========SCRIPT FOR NAVBAR(MOBILE)===================-->
+<script>
+    function myFunction() {
+    document.getElementById('circularMenu1').classList.toggle('active');
+    document.getElementById('yup').classList.toggle("fa-times");
+    }
+    function myfun(x){
+    x.classList.add('active');
+    }
+    function myfun2(x){
+    x.classList.remove('active');
+    }
+</script>
+
+<!--===========SCRIPT FOR NAVBAR(DESKTOP)-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+var mini = true;
+function toggleSidebar() {
+  if (mini) {
+    $(".icon-text").css("margin-left", "10px");
+    /*document.getElementById("inmain").style.visibility = "hidden"; */
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginRight = "0px";
+    document.getElementById("main").style.marginLeft = "250px";
+    this.mini = false;
+  }
+  else {
+    $(".icon-text").css("margin-left", "-4000px");
+    $(".uio").css("margin-left", "10px");
+    /*document.getElementById("inmain").style.visibility = "visible";*/
+    document.getElementById("mySidebar").style.width = "60px";
+    document.getElementById("main").style.marginLeft = "60px";
+    this.mini = true;
+  }
+}
+</script>
+
+<!--========== FOR CHES|IITM ANIMATION=================== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script>
+    anime.timeline({loop: true})
+.add({
+targets: '.ml5 .line',
+opacity: [0.5,1],
+scaleX: [0, 1],
+easing: "easeInOutExpo",
+duration: 700
+}).add({
+targets: '.ml5 .line',
+duration: 600,
+easing: "easeOutExpo",
+translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
+}).add({
+targets: '.ml5 .ampersand',
+opacity: [0,1],
+scaleY: [0.5, 1],
+easing: "easeOutExpo",
+duration: 600,
+offset: '-=600'
+}).add({
+targets: '.ml5 .letters-left',
+opacity: [0,1],
+translateX: ["0.2em", 0],
+easing: "easeOutExpo",
+duration: 600,
+offset: '-=300'
+}).add({
+targets: '.ml5 .letters-right',
+opacity: [0,1],
+translateX: ["-0.2em", 0],
+easing: "easeOutExpo",
+duration: 600,
+offset: '-=600'
+}).add({
+targets: '.ml5',
+opacity: 0,
+duration: 1000,
+easing: "easeOutExpo",
+delay: 1000
+});
+</script>
+  </body>
+</html>

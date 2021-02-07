@@ -1,0 +1,58 @@
+body, html{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Georgia, 'Times New Roman', Times, serif;
+  }
+.breadcrumbrow{
+    padding:5px;
+    margin:0;
+}
+.img-responsive{
+    margin: 0 auto;
+}
+.container{
+    font-size: medium;
+    margin:auto;
+    margin-top:40px;
+    padding:0px;
+}
+.row-content{
+    padding:0;
+    margin: 0;
+}
+.event-image{
+    padding:15px;
+    margin:0;
+    text-align: center;
+}
+
+.eventul{
+    text-align: center;
+}
+#eventabout{
+    padding:17px;
+}
+.eachtab{
+    display: inline-block;
+    padding:20px 0px 0px 0px;
+    text-align: center;
+}
+.eachlink{
+    padding:10px 25px;
+}
+.material-icons{
+    padding:10px;
+}
+.event-image h1{
+    padding:6px;
+}
+.event-image h6{
+    margin:auto 5px;
+}
+@media(max-width:350px){
+    .eachlink{
+        padding:10px 13px;
+    }
+}
+
