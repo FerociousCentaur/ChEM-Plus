@@ -1,0 +1,174 @@
+.maintext{
+    color:white;
+    font-size: xx-large;
+    font-family:Gotu;
+}
+.maintext-small{
+    font-size: large;
+    font-family: Gotu;
+    color:#bbb;
+}
+html,body{
+    height: 100%;
+    min-height: 100%;
+}
+.link--yaku{
+    font-family: Verdana, sans-serif;
+    color:#bfd4fa;
+    font-weight:600;
+    font-size: 150%;
+}
+.link--yaku span{
+    animation-name: colchange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes colchange{
+    0%{
+        color:#bfd4fa;
+    }
+    90%{
+        color:#C797EB;
+    }
+    100%{
+        color:white;
+    }
+}
+.link--yaku::before{
+    border: none;
+}
+.link--yaku:hover span{
+    color:#C797EB;
+    font-weight:600;
+}
+.link--yaku:hover{
+    backface-visibility: hidden;
+}
+.centred{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Gotu';
+  }
+
+@media(max-width:1050px){
+    .maintext{
+        font-size:30px;
+    }
+    .maintext-small{
+        font-size: 20px;
+    }
+    .link--yaku{
+        font-size:45px;
+    }
+    .mainimage{
+        height:250px;
+    }
+}
+
+@media(max-width:800px){
+    .maintext{
+        font-size:25px;
+    }
+    .maintext-small{
+        font-size: 15px;
+    }
+    .link--yaku{
+        font-size:40px;
+    }
+    .mainimage{
+        height:200px;
+    }
+    .foot{
+        position: absolute;
+        bottom: 0;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+}
+
+@media(max-width:600px){
+    .foot{
+        font-size: small;
+    }
+  #main{
+    font-size:15px;
+  }
+  #main {
+    padding: 16px;
+    margin-left: 0px;
+
+  }
+  .maintext{
+    font-size:20px;
+}
+.maintext-small{
+    font-size: 13px;
+}
+.link--yaku{
+    font-size:30px;
+}
+.mainimage{
+    height:200px;
+}
+  .normaling{
+    padding: 30px 20px 0 20px;
+  }
+  .needsmall{
+    font-size: 30px
+  }
+  .needmedium{
+    font-size: 45px;
+  }
+}
+
+@media(max-width:400px){
+    .maintext{
+        font-size:15px;
+    }
+    .maintext-small{
+        font-size: 10px;
+    }
+    .link--yaku{
+        font-size:25px;
+    }
+    .mainimage{
+        height:200px;
+    }
+    .foot{
+        position: absolute;
+        bottom: 0;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+    .normaling{
+        padding: 30px 20px 0 20px;
+      }
+      .needsmall{
+        font-size: 30px
+      }
+      .needmedium{
+        font-size: 45px;
+        padding:0;
+        margin:1px;
+      }
+}
+@media(min-height:1000px){
+    body,html{
+        height:100%;
+        min-height: 100%;
+    }
+    .foot{
+        position: absolute;
+        bottom: 0;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+    .container, #main{
+        height:100%;
+        min-height: 100%;
+    }
+}
