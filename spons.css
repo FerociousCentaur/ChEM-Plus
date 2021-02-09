@@ -82,7 +82,7 @@ body{
   position: relative;
   background-image: url("images/bg3.jpg") !important;
   background-repeat: no-repeat;
-  background-size: 1500px 800px;
+  background-size: cover;
 }
 
 .ml5 .line {
