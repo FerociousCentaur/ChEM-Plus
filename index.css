@@ -3,6 +3,8 @@
     font-family: "Lato", sans-serif;
     background-image: url("images/bg3.png");
     background-attachment: fixed;
+    background-repeat: no-repeat;
+  background-size: cover;
   }
   .centeri{
     margin:auto;
@@ -16,30 +18,15 @@
     margin:auto;
   }
   .mainimage{
-      background-color:white;
-      opacity:1;
-      display: block;
-      height:430px;
-      padding: 0px;
-      margin:auto;
-      border-radius:20%;
-  }
-  hr{
-    max-width:100px;margin:15px auto;border-width:4px;border-color:white;
-  }
-  
-  .normaling{
+    background-color: #bdd8fe;
+    background-image: linear-gradient( #bdd8fe 0%, #C797EB 74%); 
+    display: block;
+    height:320px;
+    padding: 0px;
     margin:auto;
-    white-space: normal;
-    padding: 30px 40px 0 40px;
-    text-align: center;
-    font-size: 1.5em;
-    font-family: 'Della Respira';
+    border-radius:20%;
   }
-  
-  .whiter{
-    color: white;
-  }
+
 #mySidebar{
   display:block;
 
@@ -100,7 +87,6 @@
       margin-left: 300px;
     }
   }
-
 
 
     .logo-image{
@@ -335,23 +321,13 @@ background-attachment: fixed;
   top: 30px;
   right: 30px;
 }
-.mainimage{
-  background-color:white;
-  opacity:1;
-  display: block;
-  padding: 0px;
-  margin:auto;
-  border-radius:20%;
-}
+
 
 .mainimage{
   height:300px;
   margin-top:100px;
 }
-.mainimage:hover {
-  height:231px;
-  opacity: 1;
-  }
+
 #main {
   padding: 16px;
   margin-left: 5px;
@@ -575,6 +551,16 @@ hr{
   font-size:2.2em;
 }
 
+.mainimage{
+  background-color: #bdd8fe;
+  background-image: linear-gradient( #bdd8fe 0%, #C797EB 74%); 
+  display: block;
+  height:320px;
+  padding: 0px;
+  margin:auto;
+  border-radius:20%;
+}
+
 @media only screen and (max-width: 375px){
   .heading{
     font-size: 20px;
@@ -596,7 +582,7 @@ hr{
 
   }
 }
-
+}
 
 /**
  * The other theme for this menu
