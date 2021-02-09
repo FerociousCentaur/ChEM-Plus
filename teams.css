@@ -24,16 +24,16 @@ hr{
   color: white;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 600px) {
     .marginer{
         margin-top: 20px;
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
     .box{
         padding: 0;
-        margin: 20px 60px;
+        margin: 20px 40px;
     }
 }
 
