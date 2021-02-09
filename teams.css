@@ -23,3 +23,11 @@ hr{
 .whiter{
   color: white;
 }
+@media(max-width:600px){
+  #main {
+    padding: 16px;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+
+}
