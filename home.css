@@ -4,9 +4,9 @@
     font-family:Gotu;
 }
 .maintext-small{
-    font-size: large;
+    font-size:x-large;
     font-family: Gotu;
-    color:#bbb;
+    color:#ddd;
 }
 html,body{
     height: 100%;
@@ -19,27 +19,14 @@ html,body{
     font-size: 150%;
 }
 .link--yaku span{
-    animation-name: colchange;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    color:#b4cff5;
 }
-@keyframes colchange{
-    0%{
-        color:#bfd4fa;
-    }
-    90%{
-        color:#C797EB;
-    }
-    100%{
-        color:white;
-    }
-}
+
 .link--yaku::before{
     border: none;
 }
 .link--yaku:hover span{
-    color:#C797EB;
-    font-weight:600;
+    color:#b4cff5;
 }
 .link--yaku:hover{
     backface-visibility: hidden;

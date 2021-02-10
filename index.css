@@ -18,8 +18,7 @@
     margin:auto;
   }
   .mainimage{
-    background-color: #bdd8fe;
-    background-image: linear-gradient( #bdd8fe 0%, #C797EB 74%); 
+    background-color: white;
     display: block;
     height:320px;
     padding: 0px;
@@ -552,8 +551,7 @@ hr{
 }
 
 .mainimage{
-  background-color: #bdd8fe;
-  background-image: linear-gradient( #bdd8fe 0%, #C797EB 74%); 
+  background-color: white;
   display: block;
   height:320px;
   padding: 0px;
