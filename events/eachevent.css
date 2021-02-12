@@ -4,9 +4,25 @@ body, html{
     width: 100%;
     font-family: Verdana, Georgia, 'Times New Roman', Times, serif;
   }
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url("innereventsbg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .breadcrumbrow{
     padding:5px;
     margin:0;
+}
+.breadcrumb{
+    background:none;
+}
+.breadcrumb-item a{
+    color:white;
+}
+.eventabout{
+    margin-top:20px;
 }
 .img-responsive{
     margin: 0 auto;
@@ -50,9 +66,24 @@ body, html{
 .event-image h6{
     margin:auto 5px;
 }
-@media(max-width:350px){
+.needboxed{
+    background-color: white;
+    padding:15px;
+    margin:10px;
+}
+.eventabout h5{
+
+    font-weight: bolder;
+}
+@media(max-width:390px){
     .eachlink{
         padding:10px 13px;
+    }
+    .needboxed{
+        padding:5px;
+    }
+    .event-image h1{
+        font-size: x-large;
     }
 }
 
