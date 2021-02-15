@@ -142,7 +142,7 @@ hr{
   white-space: normal;
   padding: 30px 40px 0 40px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2.5em;
   font-family: 'Della Respira';
 }
 
@@ -160,11 +160,15 @@ hr{
   }
   .normaling{
     padding: 30px 20px 0 20px;
+    font-size: 1.5em;
   }
   .needsmall{
     font-size: 30px
   }
   .needmedium{
     font-size: 45px;
+  }
+  .normalert{
+    font-size: 1em;
   }
 }
