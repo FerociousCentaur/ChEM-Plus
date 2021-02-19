@@ -150,6 +150,14 @@ hr{
   font-size: 1.5em;
   font-family: 'Della Respira';
 }
+.normalingf{
+  margin:auto;
+  white-space: normal;
+  padding: 30px 40px 0 40px;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Della Respira';
+}
 
 .whiter{
   color: white;
@@ -338,6 +346,14 @@ hr{
 }
 
 .normaling{
+  margin:auto;
+  white-space: normal;
+  padding: 30px 40px 0 40px;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Della Respira';
+}
+.normalingf{
   margin:auto;
   white-space: normal;
   padding: 30px 40px 0 40px;
