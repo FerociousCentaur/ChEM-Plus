@@ -15,6 +15,8 @@ body {
   height: 50%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin:auto;
 }
 
 .carousel {
@@ -28,16 +30,18 @@ body {
 
 .carousel__item {
   display: flex;
+  flex-direction: column;
   align-items: center;
   position: absolute;
   width: 100%;
-  height: 60px;
+  margin-top:200px;
+  height: 160px;
   padding: 0 0px;
   opacity: 0;
   filter: drop-shadow(0 2px 2px #000);
   will-change: transform, opacity;
-  -webkit-animation: carousel-animate-vertical 27s linear infinite;
-          animation: carousel-animate-vertical 27s linear infinite;
+  -webkit-animation: carousel-animate-vertical 15s linear infinite;  /* change 18s to something else if additional items appear*/
+          animation: carousel-animate-vertical 15s linear infinite;  /* change 18s to something else if additional items appear*/
 
 }
 
@@ -65,7 +69,7 @@ body {
   -webkit-animation-delay: calc(3s * 2);
           animation-delay: calc(3s * 2);
 }
-
+/* EXTRA IF REQ
 .carousel__item:nth-child(5) {
   -webkit-animation-delay: calc(3s * 3);
           animation-delay: calc(3s * 3);
@@ -85,6 +89,7 @@ body {
   -webkit-animation-delay: calc(3s * 6);
           animation-delay: calc(3s * 6);
 }
+*/
 
 .carousel__item:last-child {
   -webkit-animation-delay: calc(-3s * 2);
@@ -93,9 +98,8 @@ body {
 
 .carousel__item-head {
   border-radius: 20%;
-  background-color: #d7f7fc;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height:100px;
   padding: 10px;
   position: relative;
   margin-right: -45px;
@@ -108,7 +112,6 @@ body {
 
 .carousel__item-body {
   width: 100%;
-  background-color: #fff;
   border-radius: 8px;
   padding: 16px 20px 16px 70px;
 }
@@ -125,25 +128,25 @@ body {
     opacity: 0;
     visibility: hidden;
   }
-  3%, 11.1111111111% {
+  3%, 16.6666667% {
     transform: translateY(100%) scale(0.7);
     opacity: 0.4;
     visibility: visible;
     z-index: 1;
   }
-  14.1111111111%, 22.2222222222% {
+  19.66666667%, 33.3333333334% {
     transform: translateY(0) scale(1);
     opacity: 1;
     visibility: visible;
     z-index: 2;
   }
-  25.2222222222%, 33.3333333333% {
+  36.3333333%, 53% {
     transform: translateY(-100%) scale(0.7);
     opacity: 0.4;
     visibility: visible;
     z-index: 1;
   }
-  36.3333333333% {
+  56% {
     transform: translateY(-100%) scale(0.5);
     opacity: 0;
     visibility: visible;
@@ -162,25 +165,25 @@ body {
     opacity: 0;
     visibility: hidden;
   }
-  3%, 11.1111111111% {
+  3%, 16.6666667% {
     transform: translateY(100%) scale(0.7);
     opacity: 0.4;
     visibility: visible;
     z-index: 1;
   }
-  14.1111111111%, 22.2222222222% {
+  19.66666667%, 33.3333333334% {
     transform: translateY(0) scale(1);
     opacity: 1;
     visibility: visible;
     z-index: 2;
   }
-  25.2222222222%, 33.3333333333% {
+  36.3333333%, 53% {
     transform: translateY(-100%) scale(0.7);
     opacity: 0.4;
     visibility: visible;
     z-index: 1;
   }
-  36.3333333333% {
+  56% {
     transform: translateY(-100%) scale(0.5);
     opacity: 0;
     visibility: visible;
