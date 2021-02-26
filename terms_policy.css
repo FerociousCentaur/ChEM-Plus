@@ -10,24 +10,24 @@
   font-family: 'Gotu';
 }
 
+.centreg{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Gotu';
+}
+
 .positioning{
   position: relative;
   top:30px;
   left: 45%;
   transform: translate(-45%, 0);
-  color: white;
+  color: #d3e0ea;
 }
 
-.small{max-width:100px;margin:15px auto;border-width:4px;border-color:white;position:relative;bottom:15px;}
+.small{max-width:100px;margin:15px auto;border-width:4px;border-color:#d3e0ea;position:relative;bottom:15px;}
 
 .bordered{
-  z-index: -1;
-  border-radius: 10px;
-  margin-top: 5em;
-  background-color: white;
-}
-
-.borderen{
   z-index:-1;
   border-radius: 10px;
   margin-top: 5em;
@@ -44,9 +44,9 @@
 
 .normaling{
   white-space: normal;
-  padding:15px 40px 0 40px;
-  text-align: center;
-  font-size: 1.5em;
+  padding: 10px 40px 0 40px;
+  text-align: left;
+  font-size: 1.8em;
   font-family: 'Della Respira';
 }
 
@@ -68,19 +68,18 @@
 }
 
 .charming{
-  font-family: 'Gotu';
+  font-family: 'Charm';
   font-weight: bold;
-  font-size: 2.5rem;
 }
 
 .spaceup{
   padding-top: 5px;
-  margin: auto;
 }
 
 body{
+
   position: relative;
-  background-image: url("images/bg3.jpg") !important;
+  background-image: url("images/bg4.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -97,39 +96,6 @@ body{
   transform-origin: 0.5 0;
 }
 
-.sponsnimg{
-  max-width: 100%;
-  height: auto;
-  padding: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hori{
-  max-width:20vw;margin:15px auto;border-width:4px;border-radius:2px;border-color:white;margin-top:10px;
-}
-
-.horip{
-  margin-top: 50px;
-}
-
-.topper{
-  margin-top: 100px;
-}
-
-.toppen{
-  margin-top: 50px;
-}
-
-.normalert{
-  white-space: normal;
-  padding:0 40px 0 40px;
-  text-align: center;
-  font-size: 1.8em;
-  font-family: 'Della Respira';
-}
-
 .whiter{
   color: white;
 }
@@ -138,14 +104,13 @@ hr{
   max-width:100px;margin:15px auto;border-width:4px;border-color:white;
 }
 
-.normaling{
+.normalingf{
   white-space: normal;
   padding: 30px 40px 0 40px;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2em;
   font-family: 'Della Respira';
 }
-
 .whiter{
   color: white;
 }
@@ -160,15 +125,12 @@ hr{
   }
   .normaling{
     padding: 30px 20px 0 20px;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .needsmall{
     font-size: 30px
   }
   .needmedium{
     font-size: 45px;
-  }
-  .normalert{
-    font-size: 1em;
   }
 }
