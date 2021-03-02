@@ -141,3 +141,13 @@ hr{
     font-size: 45px;
   }
 }
+@media(max-width:400px){
+  .contactus h2, .contactus h3{
+    font-size:15px;
+  }
+}
+@media(max-width:350px){
+  .contactus h2, .contactus h3{
+    font-size:12px;
+  }
+}
