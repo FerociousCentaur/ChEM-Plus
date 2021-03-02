@@ -15,8 +15,8 @@ body {
   height: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin:auto;
+  /* align-items: center;
+  margin:auto; */
 }
 
 .carousel {
@@ -31,12 +31,12 @@ body {
 .carousel__item {
 
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   position: absolute;
   width: 100%;
-  margin-top:200px;
-  height: 160px;
+  /* margin-top:200px; */
+ height: 60px;   /*160 */
   padding: 0 0px;
   opacity: 0;
   filter: drop-shadow(0 2px 2px #000);
